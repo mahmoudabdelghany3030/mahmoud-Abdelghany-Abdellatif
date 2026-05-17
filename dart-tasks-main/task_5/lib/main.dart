@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               const SizedBox(height: 20),
 
-              // Image widget (avatar)
+              
               const CircleAvatar(
                 radius: 60,
                 backgroundImage: AssetImage('assets/user.webp'),
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
               const SizedBox(height: 30),
 
-              // Email TextField
+            
               TextField(
                 controller: _emailController,
                 keyboardType: TextInputType.emailAddress,
@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
               const SizedBox(height: 16),
 
-              // Password TextField
+              
               TextField(
                 controller: _passwordController,
                 obscureText: true,
